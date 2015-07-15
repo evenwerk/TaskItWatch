@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+               BuildableName = "TaskItWatch WatchKit App.app"
+               BlueprintName = "TaskItWatch WatchKit App"
+               ReferencedContainer = "container:TaskItWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D616C8B1B3C3D24006A3ABF"
                BuildableName = "TaskItWatch.app"
                BlueprintName = "TaskItWatch"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D616CA31B3C3D24006A3ABF"
-               BuildableName = "TaskItWatchTests.xctest"
-               BlueprintName = "TaskItWatchTests"
+               BlueprintIdentifier = "4D616CBD1B3D5BD5006A3ABF"
+               BuildableName = "TaskItWatch WatchKit Extension.appex"
+               BlueprintName = "TaskItWatch WatchKit Extension"
                ReferencedContainer = "container:TaskItWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,16 +74,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D616CA31B3C3D24006A3ABF"
-               BuildableName = "TaskItWatchTests.xctest"
-               BlueprintName = "TaskItWatchTests"
-               ReferencedContainer = "container:TaskItWatch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D616CEC1B3D5C53006A3ABF"
                BuildableName = "CoreDataShareTests.xctest"
                BlueprintName = "CoreDataShareTests"
@@ -80,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D616C8B1B3C3D24006A3ABF"
-            BuildableName = "TaskItWatch.app"
-            BlueprintName = "TaskItWatch"
+            BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+            BuildableName = "TaskItWatch WatchKit App.app"
+            BlueprintName = "TaskItWatch WatchKit App"
             ReferencedContainer = "container:TaskItWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,16 +100,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/TaskItWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D616C8B1B3C3D24006A3ABF"
-            BuildableName = "TaskItWatch.app"
-            BlueprintName = "TaskItWatch"
+            BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+            BuildableName = "TaskItWatch WatchKit App.app"
+            BlueprintName = "TaskItWatch WatchKit App"
             ReferencedContainer = "container:TaskItWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+            BuildableName = "TaskItWatch WatchKit App.app"
+            BlueprintName = "TaskItWatch WatchKit App"
+            ReferencedContainer = "container:TaskItWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +130,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/TaskItWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D616C8B1B3C3D24006A3ABF"
-            BuildableName = "TaskItWatch.app"
-            BlueprintName = "TaskItWatch"
+            BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+            BuildableName = "TaskItWatch WatchKit App.app"
+            BlueprintName = "TaskItWatch WatchKit App"
             ReferencedContainer = "container:TaskItWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D616CC71B3D5BD5006A3ABF"
+            BuildableName = "TaskItWatch WatchKit App.app"
+            BlueprintName = "TaskItWatch WatchKit App"
+            ReferencedContainer = "container:TaskItWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

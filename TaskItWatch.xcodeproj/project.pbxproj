@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D179C841B5396E600BD1221 /* TaskHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D179C831B5396E600BD1221 /* TaskHelper.swift */; };
 		4D616C921B3C3D24006A3ABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616C911B3C3D24006A3ABF /* AppDelegate.swift */; };
 		4D616C951B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */; };
 		4D616C971B3C3D24006A3ABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616C961B3C3D24006A3ABF /* ViewController.swift */; };
@@ -14,6 +15,22 @@
 		4D616C9C1B3C3D24006A3ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D616C9B1B3C3D24006A3ABF /* Images.xcassets */; };
 		4D616C9F1B3C3D24006A3ABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D616C9D1B3C3D24006A3ABF /* LaunchScreen.xib */; };
 		4D616CAB1B3C3D24006A3ABF /* TaskItWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CAA1B3C3D24006A3ABF /* TaskItWatchTests.swift */; };
+		4D616CB71B3D5375006A3ABF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CB61B3D5375006A3ABF /* DetailViewController.swift */; };
+		4D616CB91B3D5765006A3ABF /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CB81B3D5765006A3ABF /* addTaskViewController.swift */; };
+		4D616CC31B3D5BD5006A3ABF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CC21B3D5BD5006A3ABF /* InterfaceController.swift */; };
+		4D616CC51B3D5BD5006A3ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D616CC41B3D5BD5006A3ABF /* Images.xcassets */; };
+		4D616CC91B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4D616CC81B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app */; };
+		4D616CD11B3D5BD5006A3ABF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D616CCF1B3D5BD5006A3ABF /* Interface.storyboard */; };
+		4D616CD31B3D5BD5006A3ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D616CD21B3D5BD5006A3ABF /* Images.xcassets */; };
+		4D616CD61B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D616CBE1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D616CE81B3D5C53006A3ABF /* CoreDataShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D616CE71B3D5C53006A3ABF /* CoreDataShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D616CEE1B3D5C53006A3ABF /* CoreDataShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */; };
+		4D616CF71B3D5C53006A3ABF /* CoreDataShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CF61B3D5C53006A3ABF /* CoreDataShareTests.swift */; };
+		4D616CFA1B3D5C53006A3ABF /* CoreDataShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */; };
+		4D616CFB1B3D5C53006A3ABF /* CoreDataShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4DA6EDC71B52F5CD00A21885 /* TaskItWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */; };
+		4DA6EDC91B52F68100A21885 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6EDC81B52F68100A21885 /* Task.swift */; };
+		4DA6EDCB1B52F73D00A21885 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6EDCA1B52F73D00A21885 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +41,70 @@
 			remoteGlobalIDString = 4D616C8B1B3C3D24006A3ABF;
 			remoteInfo = TaskItWatch;
 		};
+		4D616CCA1B3D5BD5006A3ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D616C841B3C3D24006A3ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D616CC71B3D5BD5006A3ABF;
+			remoteInfo = "TaskItWatch WatchKit App";
+		};
+		4D616CD41B3D5BD5006A3ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D616C841B3C3D24006A3ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D616CBD1B3D5BD5006A3ABF;
+			remoteInfo = "TaskItWatch WatchKit Extension";
+		};
+		4D616CEF1B3D5C53006A3ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D616C841B3C3D24006A3ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D616CE21B3D5C53006A3ABF;
+			remoteInfo = CoreDataShare;
+		};
+		4D616CF11B3D5C53006A3ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D616C841B3C3D24006A3ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D616C8B1B3C3D24006A3ABF;
+			remoteInfo = TaskItWatch;
+		};
+		4D616CF81B3D5C53006A3ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D616C841B3C3D24006A3ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D616CE21B3D5C53006A3ABF;
+			remoteInfo = CoreDataShare;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D616CDD1B3D5BD5006A3ABF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D616CD61B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CFF1B3D5C53006A3ABF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D616CFB1B3D5C53006A3ABF /* CoreDataShare.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D179C831B5396E600BD1221 /* TaskHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskHelper.swift; sourceTree = "<group>"; };
 		4D616C8C1B3C3D24006A3ABF /* TaskItWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskItWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D616C901B3C3D24006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D616C911B3C3D24006A3ABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +116,26 @@
 		4D616CA41B3C3D24006A3ABF /* TaskItWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D616CA91B3C3D24006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D616CAA1B3C3D24006A3ABF /* TaskItWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItWatchTests.swift; sourceTree = "<group>"; };
+		4D616CB61B3D5375006A3ABF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4D616CB81B3D5765006A3ABF /* addTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
+		4D616CBE1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TaskItWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D616CC11B3D5BD5006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D616CC21B3D5BD5006A3ABF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4D616CC41B3D5BD5006A3ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D616CC81B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskItWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D616CCE1B3D5BD5006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D616CD01B3D5BD5006A3ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4D616CD21B3D5BD5006A3ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D616CE61B3D5C53006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D616CE71B3D5C53006A3ABF /* CoreDataShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataShare.h; sourceTree = "<group>"; };
+		4D616CED1B3D5C53006A3ABF /* CoreDataShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D616CF51B3D5C53006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D616CF61B3D5C53006A3ABF /* CoreDataShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataShareTests.swift; sourceTree = "<group>"; };
+		4DA6EDC51B52D73700A21885 /* TaskItWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TaskItWatch.entitlements; sourceTree = "<group>"; };
+		4DA6EDC61B52D7C300A21885 /* TaskItWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "TaskItWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		4DA6EDC81B52F68100A21885 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../Task.swift; sourceTree = "<group>"; };
+		4DA6EDCA1B52F73D00A21885 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D616CFA1B3D5C53006A3ABF /* CoreDataShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +151,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CBB1B3D5BD5006A3ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CDF1B3D5C53006A3ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CEA1B3D5C53006A3ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CEE1B3D5C53006A3ABF /* CoreDataShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +184,10 @@
 			children = (
 				4D616C8E1B3C3D24006A3ABF /* TaskItWatch */,
 				4D616CA71B3C3D24006A3ABF /* TaskItWatchTests */,
+				4D616CBF1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension */,
+				4D616CCC1B3D5BD5006A3ABF /* TaskItWatch WatchKit App */,
+				4D616CE41B3D5C53006A3ABF /* CoreDataShare */,
+				4D616CF31B3D5C53006A3ABF /* CoreDataShareTests */,
 				4D616C8D1B3C3D24006A3ABF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +197,10 @@
 			children = (
 				4D616C8C1B3C3D24006A3ABF /* TaskItWatch.app */,
 				4D616CA41B3C3D24006A3ABF /* TaskItWatchTests.xctest */,
+				4D616CBE1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex */,
+				4D616CC81B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app */,
+				4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */,
+				4D616CED1B3D5C53006A3ABF /* CoreDataShareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,12 +208,14 @@
 		4D616C8E1B3C3D24006A3ABF /* TaskItWatch */ = {
 			isa = PBXGroup;
 			children = (
+				4DA6EDC51B52D73700A21885 /* TaskItWatch.entitlements */,
 				4D616C911B3C3D24006A3ABF /* AppDelegate.swift */,
 				4D616C961B3C3D24006A3ABF /* ViewController.swift */,
+				4D616CB61B3D5375006A3ABF /* DetailViewController.swift */,
+				4D616CB81B3D5765006A3ABF /* addTaskViewController.swift */,
 				4D616C981B3C3D24006A3ABF /* Main.storyboard */,
 				4D616C9B1B3C3D24006A3ABF /* Images.xcassets */,
 				4D616C9D1B3C3D24006A3ABF /* LaunchScreen.xib */,
-				4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */,
 				4D616C8F1B3C3D24006A3ABF /* Supporting Files */,
 			);
 			path = TaskItWatch;
@@ -115,7 +246,93 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D616CBF1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DA6EDC61B52D7C300A21885 /* TaskItWatch WatchKit Extension.entitlements */,
+				4D616CC21B3D5BD5006A3ABF /* InterfaceController.swift */,
+				4D616CC41B3D5BD5006A3ABF /* Images.xcassets */,
+				4D616CC01B3D5BD5006A3ABF /* Supporting Files */,
+			);
+			path = "TaskItWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4D616CC01B3D5BD5006A3ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CC11B3D5BD5006A3ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D616CCC1B3D5BD5006A3ABF /* TaskItWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CCF1B3D5BD5006A3ABF /* Interface.storyboard */,
+				4D616CD21B3D5BD5006A3ABF /* Images.xcassets */,
+				4D616CCD1B3D5BD5006A3ABF /* Supporting Files */,
+			);
+			path = "TaskItWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		4D616CCD1B3D5BD5006A3ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CCE1B3D5BD5006A3ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D616CE41B3D5C53006A3ABF /* CoreDataShare */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CE71B3D5C53006A3ABF /* CoreDataShare.h */,
+				4DA6EDCA1B52F73D00A21885 /* CoreDataManager.swift */,
+				4D179C831B5396E600BD1221 /* TaskHelper.swift */,
+				4DA6EDC81B52F68100A21885 /* Task.swift */,
+				4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */,
+				4D616CE51B3D5C53006A3ABF /* Supporting Files */,
+			);
+			path = CoreDataShare;
+			sourceTree = "<group>";
+		};
+		4D616CE51B3D5C53006A3ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CE61B3D5C53006A3ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D616CF31B3D5C53006A3ABF /* CoreDataShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CF61B3D5C53006A3ABF /* CoreDataShareTests.swift */,
+				4D616CF41B3D5C53006A3ABF /* Supporting Files */,
+			);
+			path = CoreDataShareTests;
+			sourceTree = "<group>";
+		};
+		4D616CF41B3D5C53006A3ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D616CF51B3D5C53006A3ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D616CE01B3D5C53006A3ABF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CE81B3D5C53006A3ABF /* CoreDataShare.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4D616C8B1B3C3D24006A3ABF /* TaskItWatch */ = {
@@ -125,10 +342,14 @@
 				4D616C881B3C3D24006A3ABF /* Sources */,
 				4D616C891B3C3D24006A3ABF /* Frameworks */,
 				4D616C8A1B3C3D24006A3ABF /* Resources */,
+				4D616CDD1B3D5BD5006A3ABF /* Embed App Extensions */,
+				4D616CFF1B3D5C53006A3ABF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D616CD51B3D5BD5006A3ABF /* PBXTargetDependency */,
+				4D616CF91B3D5C53006A3ABF /* PBXTargetDependency */,
 			);
 			name = TaskItWatch;
 			productName = TaskItWatch;
@@ -153,6 +374,76 @@
 			productReference = 4D616CA41B3C3D24006A3ABF /* TaskItWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4D616CBD1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D616CDA1B3D5BD5006A3ABF /* Build configuration list for PBXNativeTarget "TaskItWatch WatchKit Extension" */;
+			buildPhases = (
+				4D616CBA1B3D5BD5006A3ABF /* Sources */,
+				4D616CBB1B3D5BD5006A3ABF /* Frameworks */,
+				4D616CBC1B3D5BD5006A3ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D616CCB1B3D5BD5006A3ABF /* PBXTargetDependency */,
+			);
+			name = "TaskItWatch WatchKit Extension";
+			productName = "TaskItWatch WatchKit Extension";
+			productReference = 4D616CBE1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4D616CC71B3D5BD5006A3ABF /* TaskItWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D616CD71B3D5BD5006A3ABF /* Build configuration list for PBXNativeTarget "TaskItWatch WatchKit App" */;
+			buildPhases = (
+				4D616CC61B3D5BD5006A3ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaskItWatch WatchKit App";
+			productName = "TaskItWatch WatchKit App";
+			productReference = 4D616CC81B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		4D616CE21B3D5C53006A3ABF /* CoreDataShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D616CFC1B3D5C53006A3ABF /* Build configuration list for PBXNativeTarget "CoreDataShare" */;
+			buildPhases = (
+				4D616CDE1B3D5C53006A3ABF /* Sources */,
+				4D616CDF1B3D5C53006A3ABF /* Frameworks */,
+				4D616CE01B3D5C53006A3ABF /* Headers */,
+				4D616CE11B3D5C53006A3ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataShare;
+			productName = CoreDataShare;
+			productReference = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D616CEC1B3D5C53006A3ABF /* CoreDataShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D616D001B3D5C53006A3ABF /* Build configuration list for PBXNativeTarget "CoreDataShareTests" */;
+			buildPhases = (
+				4D616CE91B3D5C53006A3ABF /* Sources */,
+				4D616CEA1B3D5C53006A3ABF /* Frameworks */,
+				4D616CEB1B3D5C53006A3ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D616CF01B3D5C53006A3ABF /* PBXTargetDependency */,
+				4D616CF21B3D5C53006A3ABF /* PBXTargetDependency */,
+			);
+			name = CoreDataShareTests;
+			productName = CoreDataShareTests;
+			productReference = 4D616CED1B3D5C53006A3ABF /* CoreDataShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,8 +455,33 @@
 				TargetAttributes = {
 					4D616C8B1B3C3D24006A3ABF = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = NBU39L2QEJ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4D616CA31B3C3D24006A3ABF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4D616C8B1B3C3D24006A3ABF;
+					};
+					4D616CBD1B3D5BD5006A3ABF = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = NBU39L2QEJ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4D616CC71B3D5BD5006A3ABF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4D616CE21B3D5C53006A3ABF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4D616CEC1B3D5C53006A3ABF = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 4D616C8B1B3C3D24006A3ABF;
 					};
@@ -186,6 +502,10 @@
 			targets = (
 				4D616C8B1B3C3D24006A3ABF /* TaskItWatch */,
 				4D616CA31B3C3D24006A3ABF /* TaskItWatchTests */,
+				4D616CBD1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension */,
+				4D616CC71B3D5BD5006A3ABF /* TaskItWatch WatchKit App */,
+				4D616CE21B3D5C53006A3ABF /* CoreDataShare */,
+				4D616CEC1B3D5C53006A3ABF /* CoreDataShareTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +528,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D616CBC1B3D5BD5006A3ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CC91B3D5BD5006A3ABF /* TaskItWatch WatchKit App.app in Resources */,
+				4D616CC51B3D5BD5006A3ABF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CC61B3D5BD5006A3ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CD11B3D5BD5006A3ABF /* Interface.storyboard in Resources */,
+				4D616CD31B3D5BD5006A3ABF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CE11B3D5C53006A3ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CEB1B3D5C53006A3ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -215,9 +567,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D616CB91B3D5765006A3ABF /* addTaskViewController.swift in Sources */,
 				4D616C971B3C3D24006A3ABF /* ViewController.swift in Sources */,
 				4D616C921B3C3D24006A3ABF /* AppDelegate.swift in Sources */,
 				4D616C951B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld in Sources */,
+				4D616CB71B3D5375006A3ABF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +583,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D616CBA1B3D5BD5006A3ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CC31B3D5BD5006A3ABF /* InterfaceController.swift in Sources */,
+				4DA6EDC71B52F5CD00A21885 /* TaskItWatch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CDE1B3D5C53006A3ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA6EDCB1B52F73D00A21885 /* CoreDataManager.swift in Sources */,
+				4D179C841B5396E600BD1221 /* TaskHelper.swift in Sources */,
+				4DA6EDC91B52F68100A21885 /* Task.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D616CE91B3D5C53006A3ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D616CF71B3D5C53006A3ABF /* CoreDataShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +617,31 @@
 			isa = PBXTargetDependency;
 			target = 4D616C8B1B3C3D24006A3ABF /* TaskItWatch */;
 			targetProxy = 4D616CA51B3C3D24006A3ABF /* PBXContainerItemProxy */;
+		};
+		4D616CCB1B3D5BD5006A3ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D616CC71B3D5BD5006A3ABF /* TaskItWatch WatchKit App */;
+			targetProxy = 4D616CCA1B3D5BD5006A3ABF /* PBXContainerItemProxy */;
+		};
+		4D616CD51B3D5BD5006A3ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D616CBD1B3D5BD5006A3ABF /* TaskItWatch WatchKit Extension */;
+			targetProxy = 4D616CD41B3D5BD5006A3ABF /* PBXContainerItemProxy */;
+		};
+		4D616CF01B3D5C53006A3ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D616CE21B3D5C53006A3ABF /* CoreDataShare */;
+			targetProxy = 4D616CEF1B3D5C53006A3ABF /* PBXContainerItemProxy */;
+		};
+		4D616CF21B3D5C53006A3ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D616C8B1B3C3D24006A3ABF /* TaskItWatch */;
+			targetProxy = 4D616CF11B3D5C53006A3ABF /* PBXContainerItemProxy */;
+		};
+		4D616CF91B3D5C53006A3ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D616CE21B3D5C53006A3ABF /* CoreDataShare */;
+			targetProxy = 4D616CF81B3D5C53006A3ABF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +660,14 @@
 				4D616C9E1B3C3D24006A3ABF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4D616CCF1B3D5BD5006A3ABF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D616CD01B3D5BD5006A3ABF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,9 +760,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TaskItWatch/TaskItWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TaskItWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +774,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TaskItWatch/TaskItWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TaskItWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -396,6 +818,145 @@
 			};
 			name = Release;
 		};
+		4D616CD81B3D5BD5006A3ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TaskItWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TaskItWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4D616CD91B3D5BD5006A3ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TaskItWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TaskItWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4D616CDB1B3D5BD5006A3ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TaskItWatch WatchKit Extension/TaskItWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaskItWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D616CDC1B3D5BD5006A3ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TaskItWatch WatchKit Extension/TaskItWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TaskItWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D616CFD1B3D5C53006A3ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreDataShare/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D616CFE1B3D5C53006A3ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreDataShare/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D616D011B3D5C53006A3ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreDataShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskItWatch.app/TaskItWatch";
+			};
+			name = Debug;
+		};
+		4D616D021B3D5C53006A3ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreDataShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskItWatch.app/TaskItWatch";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +976,7 @@
 				4D616CB01B3C3D24006A3ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D616CB11B3C3D24006A3ABF /* Build configuration list for PBXNativeTarget "TaskItWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +985,43 @@
 				4D616CB31B3C3D24006A3ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D616CD71B3D5BD5006A3ABF /* Build configuration list for PBXNativeTarget "TaskItWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D616CD81B3D5BD5006A3ABF /* Debug */,
+				4D616CD91B3D5BD5006A3ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D616CDA1B3D5BD5006A3ABF /* Build configuration list for PBXNativeTarget "TaskItWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D616CDB1B3D5BD5006A3ABF /* Debug */,
+				4D616CDC1B3D5BD5006A3ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D616CFC1B3D5C53006A3ABF /* Build configuration list for PBXNativeTarget "CoreDataShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D616CFD1B3D5C53006A3ABF /* Debug */,
+				4D616CFE1B3D5C53006A3ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D616D001B3D5C53006A3ABF /* Build configuration list for PBXNativeTarget "CoreDataShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D616D011B3D5C53006A3ABF /* Debug */,
+				4D616D021B3D5C53006A3ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -433,7 +1032,8 @@
 				4D616C941B3C3D24006A3ABF /* TaskItWatch.xcdatamodel */,
 			);
 			currentVersion = 4D616C941B3C3D24006A3ABF /* TaskItWatch.xcdatamodel */;
-			path = TaskItWatch.xcdatamodeld;
+			name = TaskItWatch.xcdatamodeld;
+			path = ../TaskItWatch/TaskItWatch.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
