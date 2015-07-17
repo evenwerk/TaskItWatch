@@ -30,16 +30,17 @@ public class TaskHelper: NSObject {
         task.descriptionName = description
         task.titleName = title
         task.date = date
+        task.isCompleted = false
         
         CoreDataManager.sharedInstance.saveContext()
     }
     
     public func switchCompletion(task: Task) {
         if task.isCompleted == true {
-            task.isCompleted == false
+            task.isCompleted = false
         }
         else {
-            task.isCompleted == true
+            task.isCompleted = true
         }
         
         CoreDataManager.sharedInstance.saveContext()

@@ -28,6 +28,9 @@
 		4D616CF71B3D5C53006A3ABF /* CoreDataShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D616CF61B3D5C53006A3ABF /* CoreDataShareTests.swift */; };
 		4D616CFA1B3D5C53006A3ABF /* CoreDataShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */; };
 		4D616CFB1B3D5C53006A3ABF /* CoreDataShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D616CE31B3D5C53006A3ABF /* CoreDataShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D8E8E621B5852810064A2DB /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E8E601B5852810064A2DB /* MMWormhole.h */; };
+		4D8E8E631B5852810064A2DB /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E8E611B5852810064A2DB /* MMWormhole.m */; };
+		4DA150C91B57AF6000419E33 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA150C81B57AF6000419E33 /* TaskRow.swift */; };
 		4DA6EDC71B52F5CD00A21885 /* TaskItWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */; };
 		4DA6EDC91B52F68100A21885 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6EDC81B52F68100A21885 /* Task.swift */; };
 		4DA6EDCB1B52F73D00A21885 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6EDCA1B52F73D00A21885 /* CoreDataManager.swift */; };
@@ -132,6 +135,10 @@
 		4D616CED1B3D5C53006A3ABF /* CoreDataShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D616CF51B3D5C53006A3ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D616CF61B3D5C53006A3ABF /* CoreDataShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataShareTests.swift; sourceTree = "<group>"; };
+		4D8E8E601B5852810064A2DB /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		4D8E8E611B5852810064A2DB /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		4DA150C81B57AF6000419E33 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		4DA150CE1B584DC700419E33 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		4DA6EDC51B52D73700A21885 /* TaskItWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TaskItWatch.entitlements; sourceTree = "<group>"; };
 		4DA6EDC61B52D7C300A21885 /* TaskItWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "TaskItWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		4DA6EDC81B52F68100A21885 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../Task.swift; sourceTree = "<group>"; };
@@ -251,6 +258,7 @@
 			children = (
 				4DA6EDC61B52D7C300A21885 /* TaskItWatch WatchKit Extension.entitlements */,
 				4D616CC21B3D5BD5006A3ABF /* InterfaceController.swift */,
+				4DA150C81B57AF6000419E33 /* TaskRow.swift */,
 				4D616CC41B3D5BD5006A3ABF /* Images.xcassets */,
 				4D616CC01B3D5BD5006A3ABF /* Supporting Files */,
 			);
@@ -291,7 +299,10 @@
 				4D179C831B5396E600BD1221 /* TaskHelper.swift */,
 				4DA6EDC81B52F68100A21885 /* Task.swift */,
 				4D616C931B3C3D24006A3ABF /* TaskItWatch.xcdatamodeld */,
+				4D8E8E601B5852810064A2DB /* MMWormhole.h */,
+				4D8E8E611B5852810064A2DB /* MMWormhole.m */,
 				4D616CE51B3D5C53006A3ABF /* Supporting Files */,
+				4DA150CE1B584DC700419E33 /* Bridging-Header.h */,
 			);
 			path = CoreDataShare;
 			sourceTree = "<group>";
@@ -329,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D616CE81B3D5C53006A3ABF /* CoreDataShare.h in Headers */,
+				4D8E8E621B5852810064A2DB /* MMWormhole.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA150C91B57AF6000419E33 /* TaskRow.swift in Sources */,
 				4D616CC31B3D5BD5006A3ABF /* InterfaceController.swift in Sources */,
 				4DA6EDC71B52F5CD00A21885 /* TaskItWatch.xcdatamodeld in Sources */,
 			);
@@ -598,6 +611,7 @@
 			files = (
 				4DA6EDCB1B52F73D00A21885 /* CoreDataManager.swift in Sources */,
 				4D179C841B5396E600BD1221 /* TaskHelper.swift in Sources */,
+				4D8E8E631B5852810064A2DB /* MMWormhole.m in Sources */,
 				4DA6EDC91B52F68100A21885 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,6 +781,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataShare/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -781,6 +796,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataShare/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -865,6 +881,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataShare/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -879,6 +896,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataShare/Bridging-Header.h";
 			};
 			name = Release;
 		};

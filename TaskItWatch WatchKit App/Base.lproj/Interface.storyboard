@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TaskItWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="Vnf-Vh-ApQ">
+                            <items>
+                                <tableRow identifier="TaskRow" id="uv5-9h-VeO" customClass="TaskRow" customModule="TaskItWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="5Hg-sr-Kfc">
+                                        <items>
+                                            <label alignment="right" verticalAlignment="center" text="Label" numberOfLines="0" id="Vhe-WY-VbV">
+                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                            </label>
+                                            <button width="40" alignment="left" verticalAlignment="center" title="X" id="J7F-ew-UPY">
+                                                <connections>
+                                                    <action selector="completedButtonTapped" destination="uv5-9h-VeO" id="1v3-0O-cB6"/>
+                                                </connections>
+                                            </button>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="completionButton" destination="J7F-ew-UPY" id="9G7-LF-Gwq"/>
+                                        <outlet property="textLabel" destination="Vhe-WY-VbV" id="hKe-mk-teI"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Vnf-Vh-ApQ" id="D76-5Q-N2g"/>
+                    </connections>
+                </controller>
             </objects>
         </scene>
     </scenes>

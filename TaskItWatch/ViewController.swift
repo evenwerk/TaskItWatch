@@ -16,6 +16,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var fetchedResultsController: NSFetchedResultsController!
     
+    var wormHole:MMWormhole!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,6 +25,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.setupFetchedResultsController()
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        
+        self.wormHole = MMWormhole(applicationGroupIdentifier: "group.TaskItWatch.com.evenwerk", optionalDirectory: "wormhole")
+        self.wormHole.listenForMessageWithIdentifier("taskChangeOnWatch", listener: { (objectPassed) -> Void in
+            var fetchError: NSError?
+            self.fetchedResultsController.performFetch(&fetchError)
+            self.tableView.reloadData()
+            println(objectPassed)
+        })
     }
 
     override func didReceiveMemoryWarning() {
