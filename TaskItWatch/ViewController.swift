@@ -27,12 +27,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.delegate = self
         
         self.wormHole = MMWormhole(applicationGroupIdentifier: "group.TaskItWatch.com.evenwerk", optionalDirectory: "wormhole")
-        self.wormHole.listenForMessageWithIdentifier("taskChangeOnWatch", listener: { (objectPassed) -> Void in
+        self.wormHole.listenForMessageWithIdentifier("taskChangedPhone", listener: { (objectPassed) -> Void in
             var fetchError: NSError?
             self.fetchedResultsController.performFetch(&fetchError)
             self.tableView.reloadData()
             println(objectPassed)
         })
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -127,5 +128,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func controllerDidChangeContent(controller: NSFetchedResultsController) {
         self.tableView.reloadData()
     }
+    
 }
+
 

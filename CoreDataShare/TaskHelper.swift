@@ -43,6 +43,7 @@ public class TaskHelper: NSObject {
             task.isCompleted = true
         }
         
+        
         CoreDataManager.sharedInstance.saveContext()
     }
     

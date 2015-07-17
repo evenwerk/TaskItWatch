@@ -22,11 +22,13 @@ class InterfaceController: WKInterfaceController, TaskRowDelegate {
         
         // Configure interface objects here.
         self.wormHole = MMWormhole(applicationGroupIdentifier: "group.TaskItWatch.com.evenwerk", optionalDirectory: "wormhole")
-        self.wormHole.listenForMessageWithIdentifier("taskChangeOnPhone", listener: { (objectPassed) -> Void in
+        self.wormHole.listenForMessageWithIdentifier("taskChangedWatch", listener: { (objectPassed) -> Void in
             self.updateTasks()
             self.updateTable()
         })
         
+        self.updateTasks()
+        self.updateTable()
     }
 
     override func willActivate() {
@@ -70,5 +72,6 @@ class InterfaceController: WKInterfaceController, TaskRowDelegate {
     func completedButtonWasTapped(tag: Int) {
         var task = self.tasks[tag] as! Task
         TaskHelper.sharedInstance.switchCompletion(task)
+        wormHole.passMessageObject("taskedChangedPhone", identifier: "objectPassed")
     }
 }
